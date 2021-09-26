@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  dataproduct.pokedex.api:
+    image: ${DOCKER_REGISTRY-}dataproductpokedexapi
+    build:
+      context: .
+      dockerfile: DataProduct.Pokedex.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80/swagger
+    ports:
+      - "80"

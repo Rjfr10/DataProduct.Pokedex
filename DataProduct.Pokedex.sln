@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProduct.Pokedex.Api", "DataProduct.Pokedex.Api\DataProduct.Pokedex.Api.csproj", "{EE2056D3-EAD6-49F1-BBC4-BEA87AD73279}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1E2E825C-90E9-47D1-9849-60DDC06E2736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProduct.Pokedex.Api.Test", "DataProduct.Pokedex.Api.Test\DataProduct.Pokedex.Api.Test.csproj", "{0DC8C76D-AF29-4C36-8EFB-4FE5B88C6CD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2056D3-EAD6-49F1-BBC4-BEA87AD73279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2056D3-EAD6-49F1-BBC4-BEA87AD73279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2056D3-EAD6-49F1-BBC4-BEA87AD73279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2056D3-EAD6-49F1-BBC4-BEA87AD73279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2E825C-90E9-47D1-9849-60DDC06E2736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2E825C-90E9-47D1-9849-60DDC06E2736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2E825C-90E9-47D1-9849-60DDC06E2736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2E825C-90E9-47D1-9849-60DDC06E2736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC8C76D-AF29-4C36-8EFB-4FE5B88C6CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC8C76D-AF29-4C36-8EFB-4FE5B88C6CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC8C76D-AF29-4C36-8EFB-4FE5B88C6CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC8C76D-AF29-4C36-8EFB-4FE5B88C6CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8599056C-1E39-4894-81D7-0A4C1ED58FC8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,248 @@
+{
+	"info": {
+		"name": "Pokedex",
+		"_postman_id": "43929b5c-efff-4788-b9a6-53c2155e5ab9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pokedex",
+			"description": "",
+			"item": [
+				{
+					"name": "Swagger Home",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50501/swagger/index.html",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50501",
+							"path": [
+								"swagger",
+								"index.html"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Swagger Document",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50501/swagger/index.html",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50501",
+							"path": [
+								"swagger",
+								"index.html"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Pokemon Basic Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50501/Pokemon/Charizard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50501",
+							"path": [
+								"Pokemon",
+								"Charizard"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Pokemon Basic Details Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:50501/Pokemon/Translated/Charizard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "50501",
+							"path": [
+								"Pokemon",
+								"Translated",
+								"Charizard"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "External",
+			"description": "",
+			"item": [
+				{
+					"name": "PokeApi_GetAllPokemon",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"text\":\"It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.\"\n}"
+						},
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10000",
+									"equals": true
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FunTranslations_Shakespeare",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"text\":\"It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.\"\n}"
+						},
+						"url": {
+							"raw": "https://api.funtranslations.com/translate/shakespeare.json",
+							"protocol": "https",
+							"host": [
+								"api",
+								"funtranslations",
+								"com"
+							],
+							"path": [
+								"translate",
+								"shakespeare.json"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FunTranslations_Yoda",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"text\":\"It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.\"\n}"
+						},
+						"url": {
+							"raw": "https://api.funtranslations.com/translate/yoda.json",
+							"protocol": "https",
+							"host": [
+								"api",
+								"funtranslations",
+								"com"
+							],
+							"path": [
+								"translate",
+								"yoda.json"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
